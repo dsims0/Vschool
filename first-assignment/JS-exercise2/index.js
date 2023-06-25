@@ -9,9 +9,19 @@ header.style.backgroundColor = "red"
 document.body.style.backgroundColor = "lightgreen"
 console.log
 
-document.querySelector("#header").classList.add ("second")
-console.log
-document.querySelector("#header").classList.toggle ("second")
-console.log
-document.querySelector("#header").classList.toggle ("second")
-console.log
+
+
+
+
+document.querySelector("#header").classList.add("title")
+console.log (document.querySelector("#header").className)("title")
+document.querySelector("#header").classList.remove("title")
+console.log (document.querySelector("#header").className)
+
+document.querySelector("#header").classList.add (" new-class")
+console.log (document.querySelector("#header").className) (" new-class")
+
+document.querySelector("#header").classList.toggle("Second")
+console.log (document.querySelector("#header").className)
+document.querySelector("#header").classList.toggle("title")
+console.log (document.querySelector("#header").className)
