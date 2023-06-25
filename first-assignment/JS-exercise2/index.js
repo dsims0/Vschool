@@ -8,5 +8,10 @@ header.style.fontsize,40
 header.style.backgroundColor = "red"
 document.body.style.backgroundColor = "lightgreen"
 console.log
-var classname = document.querySelector("#header") = classname
+
+document.querySelector("#header").classList.add ("second")
+console.log
+document.querySelector("#header").classList.toggle ("second")
+console.log
+document.querySelector("#header").classList.toggle ("second")
 console.log
